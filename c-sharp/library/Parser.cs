@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MathExpressionSystem
+namespace chrishenx.MathExpressionSystem
 {
     public sealed class Parser
     {

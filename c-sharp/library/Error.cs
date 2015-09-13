@@ -1,5 +1,5 @@
 
-namespace MathExpressionSystem
+namespace chrishenx.MathExpressionSystem
 {
     enum Error
     {

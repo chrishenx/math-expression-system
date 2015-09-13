@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MathExpressionSystem
+namespace chrishenx.MathExpressionSystem
 {
     public sealed class TerminalSymbol
     {

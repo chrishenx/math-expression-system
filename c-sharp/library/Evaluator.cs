@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MathExpressionSystem
+namespace chrishenx.MathExpressionSystem
 {
     using TokenType = TerminalSymbolType;
     using Tokens = List<TerminalSymbol>;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MathExpressionSystem
+namespace chrishenx.MathExpressionSystem
 {
     using Token = TerminalSymbol;
     using Tokens = List<TerminalSymbol>;

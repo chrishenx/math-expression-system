@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace MathExpressionSystem
+namespace chrishenx.MathExpressionSystem
 {
     class Program
     {
