@@ -22,20 +22,20 @@ namespace chrishenx.MathExpressionSystem
         {
             switch (Type)
             {
-                case TerminalSymbolType.Variable:      
-                  return String.Format("Variable '{0}'", Value);
-                case TerminalSymbolType.Value:
-                  return String.Format("Value '{0}'", Value);
-                case TerminalSymbolType.Operator:
-                  return String.Format("Operator '{0}'", Value);
-                case TerminalSymbolType.Function:
-                  return String.Format("Function '{0}'", Value);
-                case TerminalSymbolType.OpeningParenthesis:
-                  return "Opening parenthesis";
-                case TerminalSymbolType.ClosingParenthesis:
-                  return "Closing parenthesis";
-                case TerminalSymbolType.UnRecognized:
-                  return String.Format("Unrecognized '{0}'", Value);
+            case TerminalSymbolType.Variable:      
+                return String.Format("Variable '{0}'", Value);
+            case TerminalSymbolType.Value:
+                return String.Format("Value '{0}'", Value);
+            case TerminalSymbolType.Operator:
+                return String.Format("Operator '{0}'", Value);
+            case TerminalSymbolType.Function:
+                return String.Format("Function '{0}'", Value);
+            case TerminalSymbolType.OpeningParenthesis:
+                return "Opening parenthesis";
+            case TerminalSymbolType.ClosingParenthesis:
+                return "Closing parenthesis";
+            case TerminalSymbolType.UnRecognized:
+                return String.Format("Unrecognized '{0}'", Value);
             }
             return "";
         }
