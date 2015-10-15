@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CGLTerminalSymbol.h"
+#import "CGLLexer.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

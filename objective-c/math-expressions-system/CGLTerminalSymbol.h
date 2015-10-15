@@ -21,12 +21,12 @@ typedef NS_ENUM(NSInteger, CGLTerminalSymbolType) {
 @interface CGLTerminalSymbol : NSObject
 
 @property (readonly) CGLTerminalSymbolType type;
-@property (readonly) int column;
+@property (readonly) NSUInteger column;
 @property (readonly) NSString* value;
 
 - (id) initSymbol:(CGLTerminalSymbolType) type;
 - (id) initSymbol:(CGLTerminalSymbolType) type
-      withDetails:(int) column : (NSString*) value;
+      withDetails:(NSUInteger) column : (NSString*) value;
 
 - (NSString*) description;
 

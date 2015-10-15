@@ -16,7 +16,7 @@
     return [self initSymbol:type withDetails:0 :nil];
 }
 
-- (id) initSymbol:(CGLTerminalSymbolType)type withDetails:(int)column :(NSString *)value {
+- (id) initSymbol:(CGLTerminalSymbolType)type withDetails:(NSUInteger)column :(NSString *)value {
     if (self = [super init]) {
         _type = type;
         _column = column;

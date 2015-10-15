@@ -122,9 +122,9 @@ namespace chrishenx.MathExpressionSystem
                     case State.VAR:
                         if (Char.IsLetter(symbol))
                         {
-                            currentState = State.FUNC;
                             tokenValue.Append(symbol);
                             position++;
+                            currentState = State.FUNC;
                         }
                         else
                         {
