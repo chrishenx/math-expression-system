@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0BAEEE1BCF1226000E64F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BAEED1BCF1226000E64F1 /* main.m */; };
+		BE0BAEF61BCF13C1000E64F1 /* CGLTerminalSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BAEF51BCF13C1000E64F1 /* CGLTerminalSymbol.m */; settings = {ASSET_TAGS = (); }; };
+		BE8F16AD1BD0006E00C9BEFC /* CGLOperand.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8F16AC1BD0006E00C9BEFC /* CGLOperand.m */; settings = {ASSET_TAGS = (); }; };
+		BE8F16B01BD002A800C9BEFC /* CGLNonTerminalSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8F16AF1BD002A800C9BEFC /* CGLNonTerminalSymbol.m */; settings = {ASSET_TAGS = (); }; };
+		BE8F16B31BD0057A00C9BEFC /* CGLSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8F16B21BD0057A00C9BEFC /* CGLSymbol.m */; settings = {ASSET_TAGS = (); }; };
+		BE8F16B61BD0071200C9BEFC /* CGLLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8F16B51BD0071200C9BEFC /* CGLLexer.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE0BAEE81BCF1226000E64F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE0BAEEA1BCF1226000E64F1 /* math-expressions-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "math-expressions-system"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0BAEED1BCF1226000E64F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE0BAEF41BCF13C1000E64F1 /* CGLTerminalSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLTerminalSymbol.h; sourceTree = "<group>"; };
+		BE0BAEF51BCF13C1000E64F1 /* CGLTerminalSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLTerminalSymbol.m; sourceTree = "<group>"; };
+		BE8F16AB1BD0006E00C9BEFC /* CGLOperand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLOperand.h; sourceTree = "<group>"; };
+		BE8F16AC1BD0006E00C9BEFC /* CGLOperand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLOperand.m; sourceTree = "<group>"; };
+		BE8F16AE1BD002A800C9BEFC /* CGLNonTerminalSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLNonTerminalSymbol.h; sourceTree = "<group>"; };
+		BE8F16AF1BD002A800C9BEFC /* CGLNonTerminalSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLNonTerminalSymbol.m; sourceTree = "<group>"; };
+		BE8F16B11BD0057A00C9BEFC /* CGLSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLSymbol.h; sourceTree = "<group>"; };
+		BE8F16B21BD0057A00C9BEFC /* CGLSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLSymbol.m; sourceTree = "<group>"; };
+		BE8F16B41BD0071200C9BEFC /* CGLLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLLexer.h; sourceTree = "<group>"; };
+		BE8F16B51BD0071200C9BEFC /* CGLLexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLLexer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0BAEE71BCF1226000E64F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0BAEE11BCF1226000E64F1 = {
+			isa = PBXGroup;
+			children = (
+				BE0BAEEC1BCF1226000E64F1 /* math-expressions-system */,
+				BE0BAEEB1BCF1226000E64F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0BAEEB1BCF1226000E64F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BAEEA1BCF1226000E64F1 /* math-expressions-system */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0BAEEC1BCF1226000E64F1 /* math-expressions-system */ = {
+			isa = PBXGroup;
+			children = (
+				BE4A35731BD0197F004748FD /* library */,
+				BE0BAEED1BCF1226000E64F1 /* main.m */,
+			);
+			path = "math-expressions-system";
+			sourceTree = "<group>";
+		};
+		BE4A35731BD0197F004748FD /* library */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BAEF41BCF13C1000E64F1 /* CGLTerminalSymbol.h */,
+				BE0BAEF51BCF13C1000E64F1 /* CGLTerminalSymbol.m */,
+				BE8F16AB1BD0006E00C9BEFC /* CGLOperand.h */,
+				BE8F16AC1BD0006E00C9BEFC /* CGLOperand.m */,
+				BE8F16AE1BD002A800C9BEFC /* CGLNonTerminalSymbol.h */,
+				BE8F16AF1BD002A800C9BEFC /* CGLNonTerminalSymbol.m */,
+				BE8F16B11BD0057A00C9BEFC /* CGLSymbol.h */,
+				BE8F16B21BD0057A00C9BEFC /* CGLSymbol.m */,
+				BE8F16B41BD0071200C9BEFC /* CGLLexer.h */,
+				BE8F16B51BD0071200C9BEFC /* CGLLexer.m */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0BAEE91BCF1226000E64F1 /* math-expressions-system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0BAEF11BCF1226000E64F1 /* Build configuration list for PBXNativeTarget "math-expressions-system" */;
+			buildPhases = (
+				BE0BAEE61BCF1226000E64F1 /* Sources */,
+				BE0BAEE71BCF1226000E64F1 /* Frameworks */,
+				BE0BAEE81BCF1226000E64F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "math-expressions-system";
+			productName = "math-expressions-system";
+			productReference = BE0BAEEA1BCF1226000E64F1 /* math-expressions-system */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0BAEE21BCF1226000E64F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = chrishenx;
+				TargetAttributes = {
+					BE0BAEE91BCF1226000E64F1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BE0BAEE51BCF1226000E64F1 /* Build configuration list for PBXProject "math-expressions-system" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE0BAEE11BCF1226000E64F1;
+			productRefGroup = BE0BAEEB1BCF1226000E64F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0BAEE91BCF1226000E64F1 /* math-expressions-system */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0BAEE61BCF1226000E64F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8F16B31BD0057A00C9BEFC /* CGLSymbol.m in Sources */,
+				BE8F16B61BD0071200C9BEFC /* CGLLexer.m in Sources */,
+				BE8F16B01BD002A800C9BEFC /* CGLNonTerminalSymbol.m in Sources */,
+				BE8F16AD1BD0006E00C9BEFC /* CGLOperand.m in Sources */,
+				BE0BAEF61BCF13C1000E64F1 /* CGLTerminalSymbol.m in Sources */,
+				BE0BAEEE1BCF1226000E64F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE0BAEEF1BCF1226000E64F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE0BAEF01BCF1226000E64F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE0BAEF21BCF1226000E64F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE0BAEF31BCF1226000E64F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0BAEE51BCF1226000E64F1 /* Build configuration list for PBXProject "math-expressions-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0BAEEF1BCF1226000E64F1 /* Debug */,
+				BE0BAEF01BCF1226000E64F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0BAEF11BCF1226000E64F1 /* Build configuration list for PBXNativeTarget "math-expressions-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0BAEF21BCF1226000E64F1 /* Debug */,
+				BE0BAEF31BCF1226000E64F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0BAEE21BCF1226000E64F1 /* Project object */;
+}
