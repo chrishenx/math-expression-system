@@ -193,7 +193,7 @@ namespace chrishenx.MathExpressionSystem
                             var error = String.Format("Invalid number format {0}", tokenValue.Append(symbol));
                             TokenError = new Token(TokenType.UnRecognized, position, error);
                             tokens.Add(TokenError);
-                            LexicalError = false;
+                            LexicalError = true;
                         }
                         break;
                     case State.NUM2:
