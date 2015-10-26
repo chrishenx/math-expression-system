@@ -5,7 +5,7 @@ public enum TerminalSymbolType {
 	Value, 
 	Operator, 
 	Function,
-    OpeningParenthesis, 
-    ClosingParenthesis, 
-    UnRecognized
+  OpeningParenthesis, 
+  ClosingParenthesis, 
+  UnRecognized
 }
